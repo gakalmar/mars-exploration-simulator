@@ -7,4 +7,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Configuration\Model\" />
+      <Folder Include="Configuration\Service\" />
+      <Folder Include="MapElements\Model\" />
+      <Folder Include="MapElements\Service\" />
+      <Folder Include="Output\Service\" />
+    </ItemGroup>
+
 </Project>
