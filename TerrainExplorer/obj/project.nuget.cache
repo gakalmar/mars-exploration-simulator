@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Fgf6ZvcU7LOQ91Sb15sVQk4vLtk3TUJ4uEbX62KhmL20YWW/kTlbFdGy2gC11fMf8yg53S/KVeudxcOGogM98A==",
+  "dgSpecHash": "lDW8YaZZambbtY2B8BppsZqaaCtqsi7ojYSr7mPyCwDrXewctmHg++L5cYjCeho9usqJDul4wc/RDC+90rUf3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\gakal\\Desktop\\CODECOOL\\practices\\team projects\\03_OOP\\TW_05\\mars-exploration-simulator\\TerrainExplorer\\TerrainExplorer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gakal\\.nuget\\packages\\microsoft.data.sqlite\\9.0.0-preview.5.24306.3\\microsoft.data.sqlite.9.0.0-preview.5.24306.3.nupkg.sha512",
+    "C:\\Users\\gakal\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.0-preview.5.24306.3\\microsoft.data.sqlite.core.9.0.0-preview.5.24306.3.nupkg.sha512",
+    "C:\\Users\\gakal\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
+    "C:\\Users\\gakal\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.7\\sqlitepclraw.bundle_e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\gakal\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\gakal\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.7\\sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\gakal\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.7\\sqlitepclraw.provider.e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\gakal\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

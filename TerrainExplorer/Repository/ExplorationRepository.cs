@@ -1,4 +1,5 @@
-﻿using TerrainExplorer.Exploration;
+﻿using Microsoft.Data.Sqlite;
+using TerrainExplorer.Exploration;
 
 namespace TerrainExplorer.Repository;
 
@@ -11,7 +12,6 @@ public class ExplorationRepository : IExplorationRepository
         _dbFilePath = dbFilePath;
     }
     
-    // Establish connection:
     private SqliteConnection GetPhysicalDbConnection()
     {
         var dbConnection = new SqliteConnection($"Data Source ={_dbFilePath};Mode=ReadWrite");
@@ -35,7 +35,6 @@ public class ExplorationRepository : IExplorationRepository
         };
     }
 
-    // Public methods:
     public void Add(int steps, int mineralsFound, int waterFound, ExplorationOutcome outcome)
     {
         var query = $"INSERT INTO Summaries (Created, Steps, Water, Mineral, Outcome) " +

@@ -1,4 +1,6 @@
-﻿namespace TerrainExplorer.Repository;
+﻿using TerrainExplorer.Exploration;
+
+namespace TerrainExplorer.Repository;
 
 public interface IExplorationRepository
 {

@@ -1,4 +1,7 @@
-﻿namespace TerrainExplorer.Simulation.SimulationStepFactory;
+﻿using TerrainExplorer.Simulation.SimulationSteps;
+using TerrainGenerator.Calculators.Service;
+
+namespace TerrainExplorer.Simulation.SimulationStepFactory;
 
 public class MovementFactoryBase : SimulationStepFactoryBase
 {

@@ -1,4 +1,8 @@
-﻿namespace TerrainExplorer.Exploration;
+﻿using TerrainExplorer.MarsRover;
+using TerrainExplorer.Simulation;
+using TerrainExplorer.Simulation.SimulationStepFactory;
+
+namespace TerrainExplorer.Exploration;
 
 public interface IExplorationSimulator
 {

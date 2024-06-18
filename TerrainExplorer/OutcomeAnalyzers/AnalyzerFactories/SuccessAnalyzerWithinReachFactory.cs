@@ -1,4 +1,7 @@
-﻿namespace TerrainExplorer.OutcomeAnalyzers.AnalyzerFactories;
+﻿using TerrainExplorer.Simulation;
+using TerrainGenerator.Calculators.Service;
+
+namespace TerrainExplorer.OutcomeAnalyzers.AnalyzerFactories;
 
 public class SuccessAnalyzerWithinReachFactory : AnalyzerFactoryBase
 {

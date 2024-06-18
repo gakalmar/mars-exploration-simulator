@@ -1,4 +1,5 @@
 ﻿using TerrainExplorer.Exploration;
+using TerrainExplorer.Simulation;
 using TerrainGenerator.Calculators.Model;
 using TerrainGenerator.Calculators.Service;
 

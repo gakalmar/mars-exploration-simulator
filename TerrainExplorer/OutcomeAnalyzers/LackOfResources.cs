@@ -1,4 +1,8 @@
-﻿namespace TerrainExplorer.OutcomeAnalyzers;
+﻿using TerrainExplorer.Exploration;
+using TerrainExplorer.Simulation;
+using TerrainGenerator.Calculators.Service;
+
+namespace TerrainExplorer.OutcomeAnalyzers;
 
 public class LackOfResources : OutcomeAnalyzerBase
 {

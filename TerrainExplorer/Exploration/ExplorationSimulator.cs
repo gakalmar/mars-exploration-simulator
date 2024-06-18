@@ -1,4 +1,8 @@
 ﻿using TerrainExplorer.Configuration;
+using TerrainExplorer.MapLoader;
+using TerrainExplorer.MarsRover;
+using TerrainExplorer.Simulation;
+using TerrainExplorer.Simulation.SimulationStepFactory;
 using TerrainGenerator.Calculators.Model;
 using TerrainGenerator.Calculators.Service;
 using TerrainGenerator.MapElements.Model;
